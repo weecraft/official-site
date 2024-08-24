@@ -2,8 +2,7 @@ import * as React from 'react'
 import type { Metadata } from 'next'
 import '~/globals.css'
 import { config } from '~/lib/config'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
+import { dmMonoFont, dmSansFont } from '~/fonts'
 import { Analytics } from '@vercel/analytics/next'
 import { ThemeProvider } from '~/components/theme-provider'
 import { AnimationProvider } from '~/components/animation-provider'
@@ -17,24 +16,11 @@ interface RootLayoutProps {
 
 // default metadata for the site
 export const metadata: Metadata = {
-  applicationName: 'Moono',
-  keywords: [
-    'Product Designer',
-    'UI UX Designer',
-    'Web Designer',
-    'Shopify Developer',
-    'Web Developer',
-    'Webflow Expert',
-    'Framer Expert',
-    'Squarespace',
-    'Wix Developer',
-    'Fullstack',
-    'Mobile Developer',
-    'Indie Hacker',
-  ],
-  authors: [{ name: 'Moono' }],
-  publisher: 'Moono',
-  creator: 'Moono',
+  applicationName: 'Weecraft',
+  keywords: ['Resources', 'UI UX Library', 'Themes', 'Utils', 'Helper'],
+  authors: [{ name: 'Weecraft' }],
+  publisher: 'Weecraft',
+  creator: 'Weecraft',
   metadataBase: new URL(config.app.host),
 }
 
@@ -45,7 +31,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${GeistSans.variable} ${GeistMono.variable}`}
+      className={`${dmSansFont.variable} ${dmMonoFont.variable}`}
     >
       <body className={''}>
         <ThemeProvider

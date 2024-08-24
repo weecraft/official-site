@@ -29,13 +29,13 @@ export default function PrivacyPage(): React.ReactElement {
         <ArticleContent>
           <h1>Privacy policy</h1>
 
-          <strong>Effective Date: Friday, 12 April 2024</strong>
+          <strong>Effective Date: Saturday, 24 August 2024</strong>
           <p>
             This privacy policy outlines the information practices and
             procedures followed by{' '}
-            <Link href={'https://moono.space'}>https://moono.space</Link> ("we,"
-            "us," or "our") regarding the collection, use, and disclosure of
-            personal information when you access and use our website (the
+            <Link href={'https://weecraft.club'}>https://weecraft.club</Link>{' '}
+            ("we," "us," or "our") regarding the collection, use, and disclosure
+            of personal information when you access and use our website (the
             "Website"). We are committed to protecting your privacy and ensuring
             the security of your personal information. By accessing or using our
             Website, you consent to the collection, use, and disclosure of your

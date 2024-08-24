@@ -30,8 +30,11 @@ export default function PrivacyPage(): React.ReactElement {
           <h1>Terms of use</h1>
           <p>
             These terms of use govern your use of our website, located at 
-            <Link href={'https://moono.space'}>https://moono.space</Link> Please
-            read these terms carefully before accessing or using our website.
+            <Link href={'https://weecraft.club'}>
+              https://weecraft.club
+            </Link>{' '}
+            Please read these terms carefully before accessing or using our
+            website.
           </p>
 
           <h2>Acceptance of Terms</h2>
@@ -92,7 +95,7 @@ export default function PrivacyPage(): React.ReactElement {
           <h2>Limitation of Liability</h2>
           <p>
             In no event shall{' '}
-            <Link href={'https://moono.space'}>https://moono.space</Link>
+            <Link href={'https://weecraft.club'}>https://weecraft.club</Link>
              or its affiliates be liable for any direct, indirect, incidental,
             consequential, or punitive damages arising out of or in connection
             with your use of our website. This includes, but is not limited to,

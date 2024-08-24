@@ -22,7 +22,7 @@ export function Brand(): React.ReactElement {
         href={'/'}
         className="transition-all duration-300 hover:-translate-x-1"
       >
-        <span className="font-medium">moono.space</span>
+        <span className="font-medium">weecraft.club</span>
       </Link>
       <span className="text-foreground hidden tablet:block">/</span>
       <span className="text-foreground transition-all duration-300 hover:-translate-x-1 cursor-pointer hidden tablet:block">

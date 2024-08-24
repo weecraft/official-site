@@ -4,20 +4,20 @@ import {
   defaultOpenGraphMetadata,
   defaultTwitterMetadata,
 } from '~/shared-metadata'
-import ContactList from './list'
+import { ContactList } from './list'
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Get in touch with me right now, start your idea',
+  description: 'Connect with weecraft, get in touch now',
   openGraph: {
     ...defaultOpenGraphMetadata,
     title: 'Contact',
-    description: 'Get in touch with me right now, start your idea',
+    description: 'Connect with weecraft, get in touch now',
   },
   twitter: {
     ...defaultTwitterMetadata,
     title: 'Contact',
-    description: 'Get in touch with me right now, start your idea',
+    description: 'Connect with weecraft, get in touch now',
   },
 }
 

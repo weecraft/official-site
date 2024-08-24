@@ -8,8 +8,8 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      sans: ['var(--font-geist-sans)'],
-      mono: ['var(--font-geist-mono)'],
+      sans: ['var(--font-dm-sans)'],
+      mono: ['var(--font-dm-mono)'],
     },
     screens: {
       tablet: '640px',

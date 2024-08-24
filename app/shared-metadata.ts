@@ -9,7 +9,7 @@ import { Twitter } from 'next/dist/lib/metadata/types/twitter-types'
 export const defaultOpenGraphMetadata: OpenGraph = {
   images: ['/images/meta-image.png'],
   type: 'website',
-  siteName: 'Nyoman Sunima',
+  siteName: 'Weecraft',
 }
 
 export const defaultTwitterMetadata: Twitter = {
