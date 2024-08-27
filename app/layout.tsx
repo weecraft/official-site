@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   publisher: 'Weecraft',
   creator: 'Weecraft',
   metadataBase: new URL(config.app.host),
+  verification: {
+    google: 'hHijhfMv8M35ema8kUZqU9paaxJ2zp2COu3rodgfqR4',
+  },
 }
 
 export default function RootLayout({
